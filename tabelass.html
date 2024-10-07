@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estados e Capitais do Brasil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Estados e Capitais do Brasil</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>Sigla</th>
+                <th>Capital</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Acre</td>
+                <td>AC</td>
+                <td>Rio Branco</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>AL</td>
+                <td>Maceió</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td>AP</td>
+                <td>Macapá</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td>AM</td>
+                <td>Manaus</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>BA</td>
+                <td>Salvador</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>CE</td>
+                <td>Fortaleza</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td>DF</td>
+                <td>Brasília</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td>ES</td>
+                <td>Vitória</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td>GO</td>
+                <td>Goiânia</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td>MA</td>
+                <td>São Luís</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>MT</td>
+                <td>Cuiabá</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td>MS</td>
+                <td>Campo Grande</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>MG</td>
+                <td>Belo Horizonte</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>PA</td>
+                <td>Belém</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td>PB</td>
+                <td>João Pessoa</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>PR</td>
+                <td>Curitiba</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>PE</td>
+                <td>Recife</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td>PI</td>
+                <td>Teresina</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>RJ</td>
+                <td>Rio de Janeiro</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td>RN</td>
+                <td>Natal</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>RS</td>
+                <td>Porto Alegre</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td>RO</td>
+                <td>Porto Velho</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td>RR</td>
+                <td>Boa Vista</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td>SC</td>
+                <td>Florianópolis</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>SP</td>
+                <td>São Paulo</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td>SE</td>
+                <td>Aracaju</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td>TO</td>
+                <td>Palmas</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        // Adiciona uma função para mudar a cor das linhas ao passar o mouse
+        const rows = document.querySelectorAll("tbody tr");
+        rows.forEach(row => {
+            row.addEventListener("mouseover", () => {
+                row.style.backgroundColor = "#d1e7dd"; // Cor quando passar o mouse
+            });
+            row.addEventListener("mouseout", () => {
+                row.style.backgroundColor = ""; // Reseta a cor ao sair
+            });
+        });
+    </script>
+</body>
+</html>
