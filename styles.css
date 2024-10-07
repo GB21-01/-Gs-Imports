@@ -1,0 +1,212 @@
+/* Reset de estilo para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #f0a500;
+}
+
+.hero {
+    background-image: url('hero-bg.jpg'); /* Supondo uma imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: #f0a500;
+    color: #333;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.info {
+    background-color: #fff;
+    padding: 3rem 0;
+}
+
+.info h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.info p {
+    text-align: center;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.services {
+    background-color: #f5f5f5;
+    padding: 3rem 0;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.service-item {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: 1rem 0;
+}
+
+.service-item i {
+    font-size: 3rem;
+    color: #f0a500;
+    margin-bottom: 1rem;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.service-item p {
+    font-size: 1.1rem;
+}
+
+.contact {
+    background-color: #fff;
+    padding: 3rem 0;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.contact .btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact .btn:hover {
+    background-color: #f0a500;
+    color: #333;
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.social-media a {
+    color: #333;
+    font-size: 2rem;
+    margin: 0 1rem;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #f0a500;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
