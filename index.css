@@ -1,0 +1,34 @@
+body {
+    background-color: #ddd9ce;
+    }
+    h1 {
+    font-family: sans-serif;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    }
+    h2 {
+    font-family: Tahoma, sans-serif;
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    }
+    p {
+    font-family: sans-serif;
+    color: blue;
+    font-size: 16px;
+    text-align: justify;
+    }
+    table {
+    margin-left: auto;
+    margin-right: auto;
+    }
+    h3{
+    font-family: 'Times New Roman', Times, serif
+    }
+   h2 {
+    Color: green;
+    font-family: 'Times New Roman', Times, serif
+}
+   
+  
